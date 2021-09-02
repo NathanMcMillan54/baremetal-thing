@@ -4,11 +4,9 @@
 #[macro_use] extern crate novusk;
 use novusk::arm::libbmu::app_main;
 use novusk::kernel::printk::printk;
-use core::panic::Location;
 
 fn main() -> ! {
-    printk!("Hello, world!");
-    printk!("From: {}", Location::file());
+    printk!("\nHello, world!");
 
     loop {  }
 }
