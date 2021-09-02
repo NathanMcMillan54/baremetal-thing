@@ -1,0 +1,9 @@
+[package]
+name = "thing"
+version = "0.1.0"
+authors = ["Nathan McMillan <nathanmcmillan54@gmail.com>"]
+edition = "2018"
+description = "A baremetal app for the Stellaris 6965 board that's supported by Novusk"
+
+[dependencies]
+novusk = { git = "https://github.com/NathanMcMillan54/novusk", features = ["stellaris_6965"] }
